@@ -1,9 +1,8 @@
+package model1;
+
 public class Student{
-          int id;
-          String name;
-         int completedCredits;
-         
-         void printSummary(){
-               System.out.println(id +" "+name+" "+completedCredits);
-    }
+	public String name;
+	int semester;
+	private double gpa;
+		
 }
